@@ -42,7 +42,7 @@ angular.module('angular-toasty').directive('toasty', ['toasty', '$timeout', '$sc
 			var uniqueCounter = 0;
 
 			// Allowed themes
-			var themes = ['default', 'material', 'bootstrap'];
+			var themes = ['default', 'material', 'bootstrap', 'tradiio'];
 
 			// Init the position
 			scope.position = '';
